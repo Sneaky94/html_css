@@ -1,0 +1,11 @@
+p {
+color: blue;
+}
+h1
+{
+    border: 5px blue double;
+    width: 25vh;
+}
+body{
+background-image: url("../image/sapin_noel.jpg");
+background-size: auto;
