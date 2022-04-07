@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+</head>
+
+<body>
+    <!-- je declare mon formulaire avec la balise form -->
+    <form>
+        <label for="pseudo">Pseudo *</label>
+        <input type="text" id="pseudo" name="pseudo" placeholder="Ex:Sneaky" required>
+        <!-- required indique que le champs doit etre renseigner -->
+        <br>
+        <!-- mot de passe -->
+        <label for="MDP">Mot de passe *</label>
+        <input type="Password" id="MDP" name="MDP" placeholder="Ex:*******" required>
+        <br>
+        <!-- @ e-mail @ -->
+        <label for="E-mail">@ E-mail *</label>
+        <input type="Password" id="MDP" name="MDP" placeholder="Ex:Sneaky@lepoleS.org" required>
+        <br>
+        <!-- Fichier -->
+        <label for="photo">Photo</label>
+        <input type="file" id="Photo" name="photo">
+        <br>
+        <!-- case a cocher -->
+        <label for="question">Quel destination choisissez-vous</label>
+        <p>
+            <input type="checkbox" id="Chine" name="Question"> Chine
+            <input type="checkbox" id="Australie" name="Question"> Australie
+            <input type="checkbox" id="Mars" name="Queustion"> Mars
+        </p>
+        <!-- Zone Texte-->
+        <label for="commentaire">Commentaire</label>
+        <textarea type="textarea" id="Commentaire" name="Commentaire" rows="8" cols="80"></textarea>
+        <!--rows= nobre de lignes -cols= nombre de colonnes/caractères -->
+        <br>
+        <!--bouton d'envoi du formulaire -->
+        <input type="submit" id="incrisption" name="incription" valeur="Envoyer">
+        <!--bouton pour vider le formulaire -->
+        <input type="reset" id="annuler" name="annuler" value="Annuler">
+        <br>
+</body>
+
+</html>
