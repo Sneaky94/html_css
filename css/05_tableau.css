@@ -20,8 +20,8 @@ table{
 }
 
 thead
-tfoot{
-    background-color: white;
+.mingon1{
+    background-color: #eb0b0b;
     border: 2px solide #6a5acd;
 }
 
@@ -33,7 +33,7 @@ th{
     border: 1px dotted #6a5acd;
     /* dotted = pointillés*/
     padding: 4px;
-    background-color: #e6e6fa;
+    background-color: #e7f70c;
     width: 25px;
 }
 

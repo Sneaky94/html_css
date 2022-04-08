@@ -1,0 +1,33 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    border: 1px;
+}
+td{
+    width: 30px;
+    height: 30px;
+    border: 0px dotted rgb(0, 0, 0);
+}
+.c1{
+    background-color: yellow;
+}
+.c2{
+    background-color: gray;
+}
+.c3{
+    background-color: white;
+}
+.c4{
+    background-color: black;
+}
+.c5{
+    background-color: blue;
+}
+.c6{
+    background-color: green;
+}
+
+/* C = la couleur /*\ 1 = le type de couleur */
