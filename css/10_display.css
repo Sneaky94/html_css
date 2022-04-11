@@ -1,0 +1,49 @@
+h1{
+    display:block;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+}
+.type1 {
+    display:block;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+}
+a{
+    
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+
+.balise{
+    display:block;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+}
+.span {
+    display:inline;
+    background-color: gray;
+    border: 1px solid black;
+
+}
+.section{
+display:block;
+background-color: lightblue;
+text-align: center;
+border: 1px solid black;}
+
+.affichage{
+    display:block;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.inline {
+    display:inline;
+    background-color: lightblue;
+    border: 1px solid black;
+}
