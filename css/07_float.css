@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    /* 
+    margin: 0, auto, 0, auto -> haut, dorite, bas, gauche
+    margin: 0
+    margin: 0, auto, 1; (gauche -> auto) */
+}
+
+div{
+    width: 100%;
+    margin: 0;
+    background-color: lightsteelblue;
+}
+
+p{
+    background-color: rgb(209, 85, 209);
+    /* prpriete suivante a tester ! */
+    /* display: inline; */
+}
+
+p span{
+ /* selectionne les span contenus dans des p */
+ background-color: yellow;
+}
+
+.boite{
+
+    height: 75px;
+    width: 230px;
+    padding: 5vh;
+    background: url(../image/bg3.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    /* taille, style, couleur de la bordure */
+    margin: 2vh;
+    float: left;
+    transition: margin 0.5s;
+}
+
+.boite2{
+
+    height: 75px;
+    width: 230px;
+    padding: 5vh;
+    background: url(../image/bg3.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    /* taille, style, couleur de la bordure */
+    margin: 2vh;
+    float: left;
+    transition: margin 0.5s;
+}
+
+.clear{
+    clear: both;
+    /* supprimer l'effet floatant */
+}
+.boite:hover {
+    /* la pseudo class : hover modifie au survol de la source (animation) */
+    margin-top: 6vh;
+}
+.boite2:hover {
+    /* la pseudo class : hover modifie au survol de la source (animation) */
+    margin-top: 6vh;
+}
+.clear{
+    clear: both;
+    /* supprime l'effet floatant */
+}
+.v123{
+    display: inline;
+}
+.titre{
+ font-size:xx-large;
+ text-align: center;
+}
+.bjr{
+    font-size: large;
+    margin: 15vh;
+}

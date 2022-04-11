@@ -1,0 +1,22 @@
+p{
+    display: block;
+}
+img{
+    margin-left: 5rem;
+    display: inline-block;
+
+} 
+h1{
+    background-color: blue;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+span.v12{
+    display: inline;
+    background-color: blue;
+    
+}
+body{
+    background-color: gray;
+}
