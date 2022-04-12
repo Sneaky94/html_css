@@ -1,18 +1,23 @@
 #conteneur{
-    /* background: #336699; width: 800px;  */
+     background: blue; width: auto; 
     }
-    header{
-    background: #ff5555; width: 800px; height: 70px;
+header{
+    background: orange; width: auto; height: 10vh;
     }
-    .gauche{
-    background: #5585ff; width: 150px; height: 530px; float: left;
+.gauche{
+    background: red; width: auto; height: 1220px; float: left;
     }
-    .milieu{
-    background: #55D87C; width: 500px; height: 530px; float: left;
+.milieu_gauche{
+    background: yellow; width: 830px; height: 1220px; float: left;
     }
-    .droite{
-    background: #9f6f3f; width: 150px; height: 530px; float: left;
+.milieu_doit{
+    background: purple; width: 850px; height: 1220px; float: left;
     }
-    .clear{
+.doit{
+        background: green; width: 500px; height: 1220px; float: left;
+        }
+
+
+.clear{
     clear: both;
     }
