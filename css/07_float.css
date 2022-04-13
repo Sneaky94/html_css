@@ -1,17 +1,17 @@
 body{
-    background: url(../image/bg_codage.jpg) center no-repeat fixed;
+    background: url(../image/bg_mosaique.jpg) center no-repeat fixed;
     background-size: cover;
-    margin: 0 auto;
+    margin: auto;
     /* 
     margin: 0, auto, 0, auto -> haut, dorite, bas, gauche
     margin: 0
     margin: 0, auto, 1; (gauche -> auto) */
 }
 
-div{
-    width: 100%;
-    margin: 0;
-    background-color: lightsteelblue;
+#conteneur{
+    width: 98%;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 p{
@@ -23,15 +23,15 @@ p{
 
 p span{
  /* selectionne les span contenus dans des p */
- background-color: yellow;
+ background-color: rgba(255, 0, 212, 0.233);
 }
 
 .boite{
 
     font-size: x-large;
     font-weight: bold;
-    height: 75px;
-    width: 175px;
+    height: 55px;
+    width: 100px;
     padding: 5vh;
     background: url(../image/bg3.jpg);
     background-repeat: no-repeat;
@@ -46,8 +46,9 @@ p span{
 
     font-size: x-large;
     font-weight: bold;
-    height: 75px;
-    width: 175px;
+    height: 55px;
+    width: 100px;
+    text-align: center;
     padding: 5vh;
     background: url(../image/bg3.jpg);
     background-repeat: no-repeat;
@@ -81,9 +82,18 @@ p span{
 .titre{
  font-size:xx-large;
  text-align: center;
+
 }
 .bjr{
-    font-size: large;
-    margin: 15vh;
+    font-size: x-large;
     text-align: center;
+    margin-right: 30vh;
+    margin-left: 30vh;
+    border: 1px solid black;
+    background-color: lightblue; 
+}
+.justebox{   
+    margin: auto;
+margin: 0 10% 0 18%;
+text-align: center;
 }
