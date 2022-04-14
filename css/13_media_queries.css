@@ -1,0 +1,115 @@
+.contener{
+    line-height: 45px;
+    width: 1300px;
+    margin: 25px auto;
+
+}
+header{
+    text-align: center;
+    background-color: #8e3557;
+}
+nav{
+    text-align: center;
+    background-color: #4a1a2c;
+    height: 50px;
+    padding-left: 2em;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    padding-left: 2em;
+    border-right: 1px solid white; 
+    padding-right: 2em;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: palevioletred;
+    height: 100px;
+}
+
+nav a:last-child{
+    border-right:none;
+}
+section{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+section div{
+    height:50vh ;
+    width:32vw  ;
+}
+.zone1,.zone4{
+    background:linear-gradient(to left,#40a497,#6840a4);
+    }
+    
+    
+    .zone2,.zone3{
+    background-color:#73ADCE;
+ }
+    
+    
+    main{
+        border:1px solid black;
+    }
+    .zone3,.zone4{/*on selectionne zone3 et zone4 en meme temps*/
+    margin-top: 15px;
+    }
+    @media screen and (max-width: 768px){
+        .contener{
+                width: 90%;
+            }
+            header{
+                background-color: #4825c4;
+            }
+            section{
+                 flex-direction: column; /*on peut changer laxe principal de flex pour avoir affichage en bloc pour chaque div */
+                align-items: center;
+                }
+            nav a{
+            display:block;
+            font-size: 16px;
+            border: none;
+            }
+            nav{
+                height: 150px;
+                line-height: 30px;
+            }       
+            .zone2{
+                margin-top: 15px;
+                background-color: orange;
+            }
+            footer{
+                background-color: #568e35;
+            }
+        }    
+        @media screen and (min-width:992px) and (max-width:1200px){
+            .container{
+                width: 90%;
+            }
+            section{
+                justify-content: space-between;
+                padding-left:15px;
+                padding-right: 15px;
+            }
+            header{
+                background-color: #0c2bdb;
+            }
+            footer{
+                background-color: #1329eb;
+            }
+            section div{
+                width: 41vw;
+                
+            }
+            .zone2,.zone3{
+                background-color:  #000000;
+            }
+            .zone1,.zone4{
+                background-image: url("../img/lion.jpg");
+                background-size:cover;/*avec cover l'image couvre la totalité du bloc(meme si l'image est plus grande)*/
+            }
+            }/* la fin de l'interval 992px*/

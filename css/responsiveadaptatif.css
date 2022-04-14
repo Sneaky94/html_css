@@ -1,0 +1,40 @@
+
+body{
+align-items: center;
+    background: url(../image/bg_mosaique.jpg);
+}
+.zone-adaptative{
+    text-align: center;
+margin: 25px auto 0 auto;
+    font-weight: bold;
+    border: solid red;
+    border-radius: 45px 45px 45px 45px;
+    color: white;
+    padding: 10px;
+    width: 53.36vh;
+    background-color: rgb(255, 0, 191);
+}
+@media (min-width: 768px) {
+    .zone-adaptative{
+        color: rgb(224, 4, 4);
+        border: solid black;
+        width: 80.04vh;
+        background-color: rgb(0, 247, 255);
+        }
+    }
+@media (min-width: 992px) {
+    .zone-adaptative{
+        color: purple;
+        border: solid green;
+        width: 103.52vh;
+        background-color: rgb(255, 123, 0);
+        }
+    }
+@media (min-width: 1200px) {
+.zone-adaptative{
+    color: yellow;
+    border: solid purple;
+    background-color: blue;
+    width: 124.86vh;
+    }
+}
