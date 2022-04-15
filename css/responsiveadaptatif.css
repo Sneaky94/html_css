@@ -38,3 +38,7 @@ margin: 25px auto 0 auto;
     width: 124.86vh;
     }
 }
+iframe{
+    display: flex;
+    justify-content:right;
+}
