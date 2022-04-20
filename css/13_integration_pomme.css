@@ -1,0 +1,62 @@
+body{
+    background: greenyellow
+}
+
+.principal1{
+    width: 507px;
+    height: 79.3vw;
+    border: solid rgb(0, 0, 0) 1px;
+    margin-left: 507px;
+}
+header{
+    background-color: white;
+    height: 25vh;
+}
+
+ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: rgb(0, 255, 34);
+    padding: px;
+}
+
+h1{
+    margin-left: 110px;
+    color: rgb(94, 255, 0);
+    margin-bottom: -9px;
+
+}
+h2{
+    margin-left: 110px;
+    color: black;
+    margin-bottom: -9px;
+
+}
+hr{
+    margin-left: 110px;
+    margin-right: 10px;
+}
+p{
+    margin-left: 110px;
+}
+a{
+    background-color: yellow;
+}
+.img1{
+    height: 44px;
+    position: relative;
+    top: -135px;
+}
+.img2{
+    margin-bottom: -5px;
+
+}
+.img3{
+    float: left;
+}
+nav{
+    background-color: white;
+}
