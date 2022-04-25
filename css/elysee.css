@@ -1,0 +1,83 @@
+li{display:inline-block;min-width:50px;}
+li a {
+    text-decoration:none;
+    text-align: center;
+    color: black;
+    font-weight:500;
+}
+li a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+li a:hover:after {
+  width: 90%;
+  background: red;
+}
+header div.ukraine {
+    color: #000;
+    background-color: #3faede;
+    text-align: center;
+    position: fixed;
+}
+
+div.ukraine p {
+    text-transform: uppercase;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../image/macron.webp");
+    height: 560px;
+    border-bottom: 5px solid #b21d0a;
+}
+
+.banner img {
+    width: 154px;
+    height: 154px;
+    z-index: 100;
+    filter: brightness(100%);
+}
+
+.banner-text-conatiner-text h1 {
+    color: white;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.banner-text-conatiner-text a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #b21d0a;
+}
+.arrondi_625rem {
+    border-radius: 0.625rem;
+    padding: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sec2_acceuill img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .sec2_acceuill h4 {
+    text-align: center;
+  }
+  
+  .sec2_acceuill p {
+    font-size: 0.8125rem;
+    text-align: center;
+  }
+  
