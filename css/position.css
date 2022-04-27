@@ -1,0 +1,74 @@
+body{
+    height: 1200px;
+}
+.conteneur{
+    height: 1200px;
+}
+.carre1 {
+    height: 40px;
+    width: 40px;
+    background: red;
+    height: 40px;
+    width: 40px;
+    position: absolute; 
+    padding: 10px 10px 10px 10px; 
+    top: 0;
+    left: 0;
+}
+.carre2 {
+    height: 40px;
+    width: 40px;
+    background: blue;
+    height: 40px;
+    width: 40px;
+    position: fixed; 
+    padding: 10px 10px 10px 10px; 
+    top: 0;
+    right: 0;
+}
+.carre3 {
+    height: 40px;
+    width: 40px;
+    background: yellow;
+    height: 40px;
+    width: 40px;
+    position: absolute; 
+    padding: 10px 10px 10px 10px; 
+    bottom: 0;
+    right: 0;
+}
+.carre4 {
+    height: 40px;
+    width: 40px;
+    background: green;
+    position: fixed; 
+    padding: 10px 10px 10px 10px; 
+    bottom: 0;
+    left: 0;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 180px solid purple;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.rond{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: lightskyblue;
+    box-shadow: 5px 3px 3px rgba(111, 172, 211, 0.363);
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 10%;
+    z-index: 1;
+}

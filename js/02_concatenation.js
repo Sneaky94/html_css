@@ -22,3 +22,5 @@ var FinPhrase = "sont présents."; // pas d'espace exprès
 // -- Nous souhaitons afficher la phrase en un seul morceau avec la concaténation => à vos claviers !
 document.write(DebutPhrase + NbStagiaires + SuitePhrase + " " + FinPhrase);
 // le " " est utile quand on a des données récupérées directement de l'utilisateur
+
+ 
