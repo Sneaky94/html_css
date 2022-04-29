@@ -1,0 +1,17 @@
+.container{
+    border: solid 1px black;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    background: url(../image/flame.jpg);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
+p{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
