@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;700&display=swap');
+
+header{
+    color: white;
+    background: linear-gradient(rgb(45, 253, 149), rgb(34,193,195));
+    box-shadow: 3px 7px 14px grey
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+a{
+    color: white;
+}
+.article1 img, .article2 img, .article3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    margin-top: 75px;
+}
+.sousHeader{
+    border-style: double;
+}
+.block1, .block2, .block3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    height: auto;
+    color: white;
+    background: linear-gradient(rgb(86,166,241), rgb(191,129,148));
+    border-radius: 20px;
+}
+.article1, .article2, .article3{
+    text-align: center;
+}
+.iconPaiement{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: linear-gradient(rgb(45, 253, 149), rgb(34,193,195));
+}
