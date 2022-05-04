@@ -94,8 +94,11 @@ footer{
         padding: 20px;
         margin: 20px;
     }
+    .iconPaiement{
+        margin-bottom: -25px;
+    }
     footer{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     }
 }
