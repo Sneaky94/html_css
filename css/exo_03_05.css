@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;700&display=swap');
 
 header{
+    background-image: url(../image/footerExo06.jpg);
     color: white;
     background: linear-gradient(rgb(45, 253, 149), rgb(34,193,195));
     box-shadow: 3px 7px 14px grey

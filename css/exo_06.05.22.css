@@ -1,0 +1,107 @@
+header{
+    background-image: url(../image/footerExo06.jpg);
+    width: 50%;
+    height: 330px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 5px;
+}
+a{
+    color: black;
+}
+h1{
+    padding-top: 60px;
+}
+.block1{
+    display: flex;
+    width: 50%;
+    height: 300px ;
+    margin: auto;
+}
+.block2{
+    display: flex;
+    width: 50%;
+    height: 300px ;
+    margin: auto;
+}
+.block3{
+    display: flex;
+    width: 50%;
+    height: 300px ;
+    margin: auto;
+}
+.block4{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+.description1{
+    text-align: center;
+    font-size: 8px;
+    width: 40%;
+}
+.ArticleImage1{
+    width: 60%;
+}
+.description2{
+    background-color: yellow;
+    width: 30%;
+}
+.ArticleImage2{
+    width: 70%;
+}
+.description3{
+    background-color: coral;
+    width: 40%;
+}
+.ArticleImage3{
+    width: 60%;
+}
+.img1{
+    width: 566px;
+    height: 300px;
+}
+.img2{
+    width: 660px;
+    height: 300px;
+}
+.img3{
+    height: 300px;
+    width: 566px;
+}
+.img4{
+
+}
+.imageDuCerf{
+    width: 160px;
+}
+.cerfEtTriangle{
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+.triangle-topright {
+    width: 0px;
+    border-top: 120px solid #f8056a;
+    border-left: 120px solid transparent;
+    position: relative;
+    left: 410px;
+    z-index: 0;
+    bottom: 131px;
+}
+footer{
+    background-image: url(../image/motif.jpg);
+    width: 50%;
+    height: 180px ;
+    margin: auto;
+}

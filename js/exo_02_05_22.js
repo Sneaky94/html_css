@@ -97,6 +97,8 @@
 // document.write(calcul2) 
 
 
+
+
 // var nombre1 = 25;
 // var nombre2 = "arbre";
 
@@ -108,8 +110,63 @@
 
 // document.write(nombre1 + "<br>" + nombre2);
 
-var exemple = "example"
-for (var i = 0; i<=9; i++){
-    document.write(exemple + "<br>");
-    exemple = exemple + "example";
-}
+
+
+// var etoile = " &nbsp**********"
+
+// for (var i = 0; i <= 9; i++){
+
+//     document.write(etoile + "<br>");
+
+//     etoile = etoile.slice(1,-1);
+
+//     etoile = " &nbsp"+etoile
+
+// }
+
+
+// var j = prompt("Inserez votre prenom : ")
+// while (j != "Rachiid") {
+//     j = prompt("La valeur n'est pas correcte, inserer votre prenom : ");
+// }
+// document.write("<p>Votre prénom est : " + j + "</p>")
+
+
+// var monArgent = 1000
+// var temps = 0
+// var text = "";
+// var i = 1000;
+// while (i < 2050) {
+//     text += "<br>Nombre de mois : " + temps + " J'ai "+ i + "€"; 
+//     i+=50; 
+//     temps++;
+// }
+// document.write(text)
+
+
+// var jour = prompt("quel jour somme nous ?");
+// switch (jour){
+//     case "lundi":
+//         console.log("Demain on ai mardi")
+//         break;
+//     case "mardi":
+//         console.log("Demain on ai mercredi")
+//         break;
+//     case "mercredi":
+//         console.log("Demain on ai jeudi")
+//         break;
+//     case "jeudi":
+//         console.log("Demain on ai vendredi")
+//         break;
+//     case "vendredi":
+//         console.log("Demain on ai samedi")
+//         break;
+//     case "samedi":
+//         console.log("Demain on ai dimanche")
+//         break;
+//     case "dimanche":
+//         console.log("Demain on ai lundi")
+//         break;
+//         default:
+//         console.log("desolé , mais bref")
+// }
