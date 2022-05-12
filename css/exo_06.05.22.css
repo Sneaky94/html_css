@@ -145,7 +145,7 @@ hr{
 }
 footer{
     color: black;
-    background-image: url(/image/motif.jpg);
+    background-image: url(image/motif.jpg);
     height: 250px;
     margin-top: 0px;
     display: flex;

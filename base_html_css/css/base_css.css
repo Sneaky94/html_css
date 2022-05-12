@@ -1,0 +1,113 @@
+li{
+    list-style-type: none;
+}
+.secImage{
+    display: flex;
+    justify-content: center;
+}
+.divImage1{
+    margin: 10px;
+    filter: opacity(50%);
+    box-shadow: 12px 12px 2px 1px rgba(242, 255, 0, 0.2);
+    
+}
+.divImage1:hover{
+    filter: opacity(100%);
+    transform: rotate(10deg);
+    box-shadow: none;
+}
+.divImage2{
+    margin: 10px;
+    filter: blur(5px);
+    box-shadow: 12px 12px 2px 1px rgba(8, 186, 217, 0.2);
+}
+.divImage2:hover{
+    margin: 10px;
+    transform: rotate(-10deg);
+    filter: blur(0px);
+    box-shadow: none;
+}
+.divImage3{
+    margin: 10px;
+    filter: grayscale(100%);
+    box-shadow: 12px 12px 2px 1px rgba(218, 44, 177, 0.2);
+
+}
+.divImage3:hover{
+    margin: 10px;
+    filter: grayscale(0%);
+    transform: rotate(0deg);
+    box-shadow: none;
+    transform: rotate(25deg);
+}
+.divImage4{
+    margin: 10px;
+    filter: drop-shadow(16px 16px 20px red) invert(75%);
+    box-shadow: 12px 12px 2px 1px rgba(255, 19, 19, 0.2);
+}
+.divImage4:hover{
+    margin: 10px;
+    filter: drop-shadow(0px 0px 0px) invert(0%);
+    box-shadow: none;
+    transform: rotate(-25deg);
+}
+
+.secImage2{
+    display: flex;
+    justify-content: center;
+}
+
+.divImage5{
+    animation-duration: 10s;
+    animation-name: mymove;
+}
+.divImage6{
+    animation-duration: 15s;
+    animation-name: mymove;
+}
+.divImage7{
+    animation-duration: 20s;
+    animation-name: mymove;
+}
+.divImage8{
+    animation-duration: 25s;
+    animation-name: mymove;
+}
+
+ @keyframes mymove {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 992px) {
+    img{
+        width: 100%;
+        margin: auto;
+    }
+    .divImage1,.divImage2,.divImage3,.divImage4,.divImage5,.divImage6,.divImage7,.divImage8{
+        box-shadow: none;
+    }
+    .divImage2{
+        margin-top: 230px;
+    }
+    .divImage4{
+        margin-top: 230px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .divImage1,.divImage2,.divImage3,.divImage4{
+        margin: 0px;
+    }
+    .secImage{
+        flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 500px) {
+      .secImage{
+          flex-direction: column;
+          align-items: center;
+      }
+  }
