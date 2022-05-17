@@ -1,12 +1,12 @@
 // initialise 3 boite de dialogue
-var heure = prompt("entrez un heure : ");
-var minute = prompt("entrez les minutes : ");
-var seconde = prompt("entrez les secondes : ");
+var heure = prompt("Entrez un heure comprise entre 00h et 23h : ");
+var minute = prompt("entrez les minutes comprise entre 0m et 59m : ");
+var seconde = prompt("entrez les secondes comprise entre 0s et 59s : ");
 
 // condition principal roulette time incrementation
 if (
   heure >= 0 &&
-  heure <= 23 &&
+  heure < 24 &&
   minute >= 0 &&
   minute <= 59 &&
   seconde >= 0 &&

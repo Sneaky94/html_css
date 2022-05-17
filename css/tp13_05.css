@@ -1,0 +1,419 @@
+a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+p{
+    margin: 0px 20px 0px 20px;
+}
+.traitFooter{
+    color: white;
+}
+li{
+    width: 18%;
+    margin-top: -10px;
+    height: 60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    padding-top: 10px;
+}
+a:hover{
+    color: black;
+}
+li:active{
+    background-color: purple;
+}
+body{
+    background: linear-gradient(rgba(128, 128, 128, 0.479), white);
+}
+.conteneur{
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+}
+/* on met en ligne et on separe */
+.pricipale{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -40px;
+    background-color: white;
+    width: 100%;
+}
+.block1{
+    display: flex;
+    width: 400px;
+    overflow: hidden;
+}
+/* on reduit l'image du logo */
+.imgLogoo{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.imgLogoo:hover{
+    transform: rotate(-10turn);
+    transition: transform 10s ease-in-out;
+}
+
+.block2{
+    width: 400px;
+}
+.imgBesoinAide{
+    height: 40px;
+}
+.horaireOuverture{
+    color: gray;
+}
+.imgDuTel{
+    position: relative;
+}
+.numeroBesoinAide{
+    position: absolute;
+    top: 5px;
+    left: 75px;
+    font-size: 26px;
+    color: lightskyblue;
+}
+.block3{
+    height: 150px;
+    width: 275px;
+}
+.panier{
+    display: flex;
+    background-color:lightskyblue;
+}
+.imgPanier{
+    width: 90px;
+    height: 90px;
+    padding-top: 2px;
+}
+.monCompte{
+    text-align: center;
+    background-color: lightskyblue;
+    margin-bottom: 2px;
+}
+/* toute les titre de la page */
+.titreMaBoutique{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-style: italic;
+}
+.titrePanier{
+    margin-left: 10px;
+    padding-top: 40px;
+    color: white;
+}
+.titreBesoniAide{
+    margin: 0px;
+    font-size: 50px;
+    color: lightskyblue;
+}
+.titrePaimentSecur{
+    margin-left: 20px;
+    color: lightskyblue;
+}
+.titreQuiSommeNous{
+    margin-left: 20px;
+    color: lightskyblue;
+}
+.titreService{
+    margin-left: 20px;
+    color: lightskyblue;
+}
+.titreVenteEct{
+    color: rgb(242, 14, 238);
+    font-size: 15px;
+    margin-top: -45px;
+}
+.titreMoncompte{
+    color: white;
+}
+.titreLogoPanier{
+    font-size: 14px;
+}
+/* fin des titres de la page */
+nav{
+    background-color: lightskyblue;
+    height: 60px;
+}
+.ulDeLaNav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+.blockSection1{
+    display: flex;
+    height: 550px;
+}
+.imgBandeau{
+    width: 100%;
+    height: 450px;
+}
+.section2{
+    margin-top: -100px;
+}
+.blockSection2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.paiement{
+    width: 25%;
+    height: 250px;
+    overflow: hidden;
+}
+.blockDesCb{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.cbVisa{
+    width: 50px;
+}
+.masterCard{
+    width: 50px;
+}
+.cbCb{
+    width: 50px;
+}
+.paypal{
+    width: 50px;
+}
+.quiSommeNous{
+    width: 50%;
+    height: 250px;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    overflow: hidden;
+}
+.service{
+    width: 25%;
+    height: 250px;
+    overflow: hidden;
+}
+.livraison{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.imgCamionLivraison{
+    margin-left: 20px;
+}
+.produit{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.imgFleche{
+    margin-left: 20px;
+}
+.blockSection3{
+    display: flex;
+    justify-content: space-around;
+}
+.bonPlan{
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.273);
+    margin-top: 30px;
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+.bonPlanTitre{
+    background-color: rgba(128, 128, 128, 0.384);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding: 1px;
+}
+.blockRobeEtText{
+    display: flex;
+    margin-top: 30px;
+}
+.imgRobe{
+    width: 100px;
+    height: 150px;
+}
+.lienRobe{
+    color: lightskyblue;
+}
+.lienVoirRobe{
+    text-align: end;
+    margin-top: 30px;
+}
+.coupDeCoeur{
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.273);
+    margin-top: 30px;
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+.coupDeCoeurTitre{
+    background-color: rgba(128, 128, 128, 0.384);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding: 1px;
+}
+.blockTalonEtText{
+    display: flex;
+    margin-top: 30px;
+}
+.imgTalon{
+    width: 100px;
+    height: 130px;
+    margin-left: 15px;
+}
+.lienTalon{
+    color: lightskyblue;
+}
+.lienVoirTalon{
+    text-align: end;
+    margin-top: 35px;
+}
+.objectifPlaisir{
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.273);
+    margin-top: 30px;
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+.objectifPlaisirTitre{
+    background-color: rgba(128, 128, 128, 0.384);
+    width: 100%;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding: 1px;
+}
+.blockChemiseEtText{
+    display: flex;
+    margin-top: 30px;
+}
+.imgChemise{
+    width: 100px;
+    height: 130px;
+    margin-left: 15px;
+}
+.lienChemise{
+    color: lightskyblue;
+}
+.lienVoirChemise{
+    text-align: end;
+    margin-top: 35px;
+}
+
+footer{
+    background: lightskyblue;
+    width: 100%;
+    height: 60px;
+    
+}
+.ulDuFooter{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    justify-content: center;
+}
+.ulDuFooter a{
+    font-size: 14px;
+}
+.ulDuFooter li{
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ne pas jugé svp j'ai fait sa a la va vite histoire de dire que je sais le faire ^^ */
+
+
+@media screen and (max-width: 992px) {
+    .conteneur{
+        width: 100%;
+    }
+    .pricipale{
+        flex-direction: column;
+        align-items: center;
+    }
+    .block1{
+        width: 50%;
+        margin-left: -50%;
+    }
+    .block2{
+        text-align: center;
+        margin-left: 50%;
+        margin-top: -85px;
+    }
+    .imgBesoinAide{
+        width: 100%;
+    }
+    .block3{
+        width: 100%;
+    }
+    .blockSection2{
+        height: 250px;
+    }
+    .lienRobe {
+        color: blue;
+        font-size: 14px;
+    }
+    .imgRobe {
+        width: 25%;
+        height: 120px;
+    }
+    .lienVoirRobe{
+        margin-top: 10px;
+    }
+    .lienVoirTalon{
+        margin-top: 0px;
+    }
+    .lienTalon {
+        color: blue;
+        font-size: 14px;
+    }
+    .imgTalon {
+        width: 25%;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .lienVoirChemise{
+        margin-top: 0px;
+    }
+    .lienChemise {
+        color: blue;
+        font-size: 14px;
+    }
+    .imgChemise {
+        width: 25%;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .ulDuFooter a{
+        font-size: 12px;
+    }
+    .blockSection3{
+        flex-direction: column;
+    }
+    .bonPlan{
+        width: 100%;
+    }
+    .coupDeCoeur{
+        width: 100%;
+    }
+    .objectifPlaisir{
+        width: 100%;
+    }
+    .numeroBesoinAide{
+        padding-left: 50px;
+    }
+}
