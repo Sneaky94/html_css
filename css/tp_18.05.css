@@ -3,8 +3,12 @@
     src: url("/font/Macondo-Regular.ttf");
 }
 @font-face{
-    font-family:"Smooch-Regular" ;
-    src: url("/font/Smooch-Regular.ttf");
+    font-family:"DancingScript" ;
+    src: url("/font/DancingScript.ttf");
+}
+a:hover{
+    border: solid 1px rgb(232, 177, 11);
+    padding: 5px;
 }
 .contenu{
     width: 95%;
@@ -12,7 +16,7 @@
 }
 body{
     background-color: black;
-    font-family:Macondo-Regular ;
+    font-family:Arial ;
     color: white;
 }
 main{
@@ -24,7 +28,7 @@ header{
     background-repeat: no-repeat;
     height: 800px;
     position: relative;
-    z-index:-1;
+    z-index: 0;
 }
 header h1{
     color: white;
@@ -42,10 +46,6 @@ header li a{
     color: white;
     margin-right: 10px;
     text-decoration: none;
-}
-.makeReservation{
-    border: solid 1px rgb(232, 177, 11);
-    padding: 5px;
 }
 .titre1{
     margin-left: 44%;
@@ -78,7 +78,7 @@ section{
 }
 .Sect1 h1{
     margin-top: 50px;
-    font-family:"Smooch-Regular" ;
+    font-family:"DancingScript" ;
     font-size: 30px;
 }
 .Sect1 h1,a{
@@ -88,6 +88,7 @@ section{
     width: 350px;
     height: 425px;
     border: solid 1px rgb(241, 198, 6);
+    z-index: 1;
 }
 .ourGastronomy img{
     height: 400px;
@@ -117,7 +118,7 @@ section{
 }
 
 .TastefulText h1{
-    font-family:"Smooch-Regular" ;
+    font-family:"DancingScript" ;
     font-size: 30px;
     color:rgb(232, 177, 11) ;
 }
@@ -135,7 +136,7 @@ section{
     color: white;
 }
 .menuSect3 h2{
-    font-family:"Smooch-Regular" ;
+    font-family:"DancingScript" ;
     font-size: 40px;
     color:rgb(232, 177, 11) ;
 }
@@ -181,18 +182,27 @@ section{
 }
 .Sect5{
     display: flex;
+    width: 70%;
 }
 .Sect5gauche, .Sect5droite{
     width: 50%;
 }
+.Sect5gauche{
+    margin-bottom: 100px;
+}
 .Sect5gauche h1{
-    font-family:"Smooch-Regular" ;
+    font-family:"DancingScript" ;
     font-size: 30px;
     color:rgb(232, 177, 11) ;
 }
+.Sect5droite{
+    position: relative;
+}
 .Sect5droite img{
-    width: 350px;
-    padding-left: 110px;
+    width: 420px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 .clear{
     clear: both;
@@ -207,7 +217,7 @@ section{
     padding-top: 50px;
 }
 .Sect6 h1{
-    font-family:"Smooch-Regular" ;
+    font-family:"DancingScript" ;
     font-size: 60px;
     color:rgb(232, 177, 11) ;
 }
@@ -216,7 +226,7 @@ section{
     text-align: end;
 }
 .Sect7 h1{
-    font-family:"Smooch-Regular" ;
+    font-family:"DancingScript" ;
     font-size: 40px;
     color:rgb(232, 177, 11) ;
 }
@@ -287,8 +297,8 @@ footer{
     justify-content: space-around;
     background:dimgrey;
     bottom:0;
-    padding-top:50px;
-    height:350px;
+    padding-top:80px;
+    height:300px;
     position: relative;
 }
 footer h1{
