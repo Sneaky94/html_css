@@ -15,6 +15,9 @@ body{
     font-family:Macondo-Regular ;
     color: white;
 }
+main{
+    margin-top: -50px;
+}
 header{
     background-image: url(../image/eggs.jpg);
     background-size: 100%;
