@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Macondo-regular";
+    src: url("/font/Macondo-Regular.ttf");
+  }
+body{
+    background-image: url("../image/sapin_noel.jpg");
+    background-size: auto;
+    font-family: Macondo-regular;
+    }
+    
 p {
 color: blue;
 }
@@ -5,8 +15,4 @@ h1
 {
     border: 5px blue double;
     width: 25vh;
-}
-body{
-background-image: url("../image/sapin_noel.jpg");
-background-size: auto;
 }

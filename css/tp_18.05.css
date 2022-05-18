@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Macondo-Regular";
+    src: url("/font/Macondo-Regular.ttf");
+}
+.contenu{
+    width: 95%;
+    margin: auto;
+}
+body{
+    background-color: black;
+    font-family:Macondo-Regular ;
+}
+header{
+    background-image: url(../image/eggs.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+    z-index:-1;
+}
+header h1{
+    color: white;
+    margin-left: 10px;
+}
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header li a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.makeReservation{
+    border: solid 1px gold;
+    padding: 5px;
+}
+.titre1{
+    margin-left: 44%;
+    font-size: 25px;
+    color: rgb(232, 177, 11);
+}
+.titre2{
+    margin-left: 36%;
+    font-size: 70px;
+    color: white;
+    margin-top: 150px;
+}
+.titre3{
+    margin-left: 38%;
+    font-size: 24px;
+    color: white;
+    margin-top: 100px;
+}
+section{
+    width: 50%;
+    margin: auto;
+}
+.Sect1, .Sect2{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.Sect1{
+    margin-top: -10px;
+}
+.Sect1 h1{
+    margin-top: 50px;
+}
+.Sect1 h1,a{
+    color:rgb(232, 177, 11) ;
+}
+.ourGastronomy{
+    width: 350px;
+    height: 425px;
+    border: solid 1px rgb(241, 198, 6);
+}
+.ourGastronomy img{
+    height: 400px;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.ourGastronomyText{
+    margin-left: 90px;
+}
+.ourGastronomyText a{
+    text-decoration: none;
+}
+.Tasteful{
+    width: 350px;
+    height: 425px;
+    border: solid 1px rgb(241, 198, 6);
+}
+.Tasteful img{
+    height: 400px;
+    width: 300px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.TastefulText{
+    margin-right: 90px;
+}
+.TastefulText a{
+    text-decoration: none;
+}
+.Sect2{
+    margin-top: 50px;
+}
+.Sect3{
+    margin-top: 100px;
+}
+.menuSect3{
+    text-align: center;
+    color: white;
+}
+.menuSect3 h2{
+    color: gold;
+}
+.menuSect3 ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.menuSect3 li a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.menuSect3 nav{
+    margin-top: 50px;
+}
