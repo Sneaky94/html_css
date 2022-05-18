@@ -2,6 +2,10 @@
     font-family: "Macondo-Regular";
     src: url("/font/Macondo-Regular.ttf");
 }
+@font-face{
+    font-family:"Smooch-Regular" ;
+    src: url("/font/Smooch-Regular.ttf");
+}
 .contenu{
     width: 95%;
     margin: auto;
@@ -9,6 +13,7 @@
 body{
     background-color: black;
     font-family:Macondo-Regular ;
+    color: white;
 }
 header{
     background-image: url(../image/eggs.jpg);
@@ -36,7 +41,7 @@ header li a{
     text-decoration: none;
 }
 .makeReservation{
-    border: solid 1px gold;
+    border: solid 1px rgb(232, 177, 11);
     padding: 5px;
 }
 .titre1{
@@ -70,6 +75,8 @@ section{
 }
 .Sect1 h1{
     margin-top: 50px;
+    font-family:"Smooch-Regular" ;
+    font-size: 30px;
 }
 .Sect1 h1,a{
     color:rgb(232, 177, 11) ;
@@ -105,6 +112,12 @@ section{
 .TastefulText{
     margin-right: 90px;
 }
+
+.TastefulText h1{
+    font-family:"Smooch-Regular" ;
+    font-size: 30px;
+    color:rgb(232, 177, 11) ;
+}
 .TastefulText a{
     text-decoration: none;
 }
@@ -119,7 +132,9 @@ section{
     color: white;
 }
 .menuSect3 h2{
-    color: gold;
+    font-family:"Smooch-Regular" ;
+    font-size: 40px;
+    color:rgb(232, 177, 11) ;
 }
 .menuSect3 ul{
     display: flex;
@@ -133,4 +148,146 @@ section{
 }
 .menuSect3 nav{
     margin-top: 50px;
+}
+.blockSect4{
+    margin-top: 150px;
+}
+
+.Chicken, .bobun, .poisson,.paella {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.Chicken img,.poisson img{
+    float: left;
+}
+.Chicken h2, .bobun h2, .poisson h2, .paella h2{
+    color:rgb(232, 177, 11) ;
+    font-style: italic;
+}
+.bobun img, .paella img{
+    float: right;
+}
+.Sect5{
+    display: flex;
+}
+.Sect5gauche, .Sect5droite{
+    width: 50%;
+}
+.Sect5gauche h1{
+    font-family:"Smooch-Regular" ;
+    font-size: 30px;
+    color:rgb(232, 177, 11) ;
+}
+.Sect5droite img{
+    width: 350px;
+    padding-left: 110px;
+}
+.clear{
+    clear: both;
+}
+.Sect6{
+    background-image: url(../image/reservation.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding-top: 50px;
+}
+.Sect6 h1{
+    font-family:"Smooch-Regular" ;
+    font-size: 60px;
+    color:rgb(232, 177, 11) ;
+}
+.Sect7{
+    margin-bottom: 100px;
+    text-align: end;
+}
+.Sect7 h1{
+    font-family:"Smooch-Regular" ;
+    font-size: 40px;
+    color:rgb(232, 177, 11) ;
+}
+.Sect8{
+    width: 90%;
+    margin: auto;
+}
+.imputReservation{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 100%;
+    height: 350px;
+}
+#nombre{
+    border: solid 1px grey;
+    background: transparent;
+    color: grey;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 23px;
+}
+.date{
+    border: solid 1px grey;
+    background: transparent;
+    color: grey;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 23px;
+}
+#fname{
+    border: solid 1px grey;
+    background: transparent;
+    color: grey;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 23px;
+}
+#reserveTable{
+    margin-top: 100px;
+    border: solid 1px grey;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 23px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background:rgba(86, 86, 86, 0.883);
+    bottom:0;
+    padding-top:50px;
+    height:350px;
+    position: relative;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+footer li{
+    color: rgb(232, 177, 11);
+    font-weight: bold;
+    font-size: 35px;
+}
+.textFooter{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.imageFond img{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
 }
