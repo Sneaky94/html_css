@@ -152,6 +152,9 @@ section{
 .menuSect3 nav{
     margin-top: 50px;
 }
+.Sect4{
+    width: 70%;
+}
 .blockSect4{
     margin-top: 150px;
 }
@@ -163,6 +166,7 @@ section{
 }
 .Chicken img,.poisson img{
     float: left;
+    margin-right: 30px;
 }
 .Chicken h2, .bobun h2, .poisson h2, .paella h2{
     color:rgb(232, 177, 11) ;
@@ -170,6 +174,10 @@ section{
 }
 .bobun img, .paella img{
     float: right;
+    margin-left: 30px;
+}
+.bobun p, .paella p{
+    text-align: end;
 }
 .Sect5{
     display: flex;
@@ -234,6 +242,9 @@ iframe{
     text-align: center;
     font-size: 23px;
 }
+#nombre:focus{
+    color:rgb(232, 177, 11) ;
+}
 .date{
     border: solid 1px grey;
     background: transparent;
@@ -243,6 +254,9 @@ iframe{
     height: 50px;
     text-align: center;
     font-size: 23px;
+}
+.date:focus{
+    color:rgb(232, 177, 11) ;
 }
 #fname{
     border: solid 1px grey;
@@ -254,10 +268,13 @@ iframe{
     text-align: center;
     font-size: 23px;
 }
+#fname:focus{
+    color:rgb(232, 177, 11) ;
+}
 #reserveTable{
     margin-top: 100px;
     border: solid 1px grey;
-    background-color: orange;
+    background-color: rgb(232, 177, 11) ;
     color: white;
     border-radius: 5px;
     width: 250px;
@@ -268,26 +285,16 @@ iframe{
 footer{
     display: flex;
     justify-content: space-around;
-    background:rgba(86, 86, 86, 0.883);
+    background:dimgrey;
     bottom:0;
     padding-top:50px;
     height:350px;
     position: relative;
 }
-footer ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-footer li{
+footer h1{
     color: rgb(232, 177, 11);
     font-weight: bold;
     font-size: 35px;
-}
-.textFooter{
-    display: flex;
-    justify-content: space-around;
-    font-size: 25px;
 }
 .imageFond img{
     position: absolute;
