@@ -11,7 +11,7 @@ a:hover{
     padding: 5px;
 }
 .contenu{
-    width: 1536px;
+    width: 1900px;
     margin: auto;
 }
 body{
@@ -101,7 +101,7 @@ section{
 .ourGastronomy{
     width: 350px;
     height: 425px;
-    margin-top: 40px;
+    margin-top: 25px;
     border: solid 1px rgb(241, 198, 6);
     z-index: 1;
 }
@@ -313,10 +313,14 @@ iframe{
 footer{
     display: flex;
     justify-content: space-around;
+    text-align: center;
     background:dimgrey;
     bottom:0;
+    right: 0;
+    left: 0;
     padding-top:80px;
     height:300px;
+    width: 1900px;
     position: relative;
 }
 footer h1{
@@ -333,4 +337,55 @@ footer h1{
     display: flex;
     justify-content: space-around;
     width: 1536px;
+}
+@media screen and (max-width: 992px){
+
+    .contenu{
+        width: 90%;
+    }
+    header{
+        height:990px;
+    }
+    .titre1 h2{
+        margin-top: 0px;
+    }
+    .titre2,.titre2 h3,.titre3{
+        margin-top: 0px;
+    }
+    .blockHeader{
+        height: 415px;
+    }
+    .Sect1{
+        width: 100%;
+    }
+    .ourGastronomyText{
+    margin-left: 10px;
+    margin-right: 20px;
+    }
+    .Sect2{
+        width: 100%;
+    }
+    .TastefulText{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .Sect3{
+        width: 100%;
+    }
+    .Sect4{
+        width: 98%;
+    }
+    .Chicken, .bobun, .poisson, .paella{
+        width: 100%;
+        text-align: center;
+    }
+    .Sect5{
+        width: 100%;
+    }
+    .Sect7{
+        width: 100%;
+    }
+    /* footer{
+
+    } */
 }
