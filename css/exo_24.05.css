@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    border: solid 1px red;
+}
+.blockHeader{
+    width: 1500px;
+    margin: auto;
+    border: solid 1px red;
+}
+.rectangle1,.rectangle2,.rectangle3,.rectangle4{
+    width: 730px;
+    height: 200px;
+    background-color: blue;
+    margin: 2px;
+    border: solid 5px orange;
+}
+.block1et2,.block3et4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+main{
+    width: 1500px;
+    margin: auto;
+    border: solid 1px red;
+}
+.c123,.c456,.c78{
+    display: flex;
+}
+.carre1,.carre2,.carre3,.carre4,.carre5,.carre6,.carre7,.carre8{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin: 1px;
+}
+footer{
+    width: 100%;
+    border: solid 1px red;
+}
+.contenuFooter{
+    background-color: black;
+    width: 1500px;
+    margin: auto;
+}
+.blockFooter1{
+    width: 1500px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-around;
+}
+.carre9,.carre10,.carre11,.carre12,.carre13,.carre14,.carre15,.carre16,.carre17{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 5px;
+}
+.blockFooter2{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.rectangle5,.rectangle6,.rectangle7,.rectangle8{
+    width:300px;
+    height: 150px;
+    background-color: yellow;
+    border: solid 1px black;
+    margin: 5px;
+}
+@media screen and (max-width: 1499.98px) {
+    .blockHeader,main,.contenuFooter,.blockFooter1,.blockFooter2{
+        width:100% ;
+    }
+  }
